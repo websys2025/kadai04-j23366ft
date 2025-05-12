@@ -37,6 +37,9 @@
 
                     // 配列の内容を項目毎に出力
                     // 課題4-1. ここにコードを書く
+                    for (const n in items) {
+                        console.log("商品番号: " + items[n].id + ", 商品名: " + items[n].name + ", 金額: " + items[n].price + ", 在庫数: " + items[n].stock);
+                    }
                     console.log(""); // 空行の出力
                 }
                 
